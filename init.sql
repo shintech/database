@@ -9,3 +9,9 @@ CREATE TABLE models (
   attribute INTEGER,
   created_at TIMESTAMP without time zone default (now() at time zone 'utc')
 );
+
+CREATE TABLE users (
+  ID SERIAL PRIMARY KEY,
+    username VARCHAR,
+    password VARCHAR
+);
