@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  postgres:
+    build: .
+    image: shintech/database
+    container_name: postgres
+networks:
+  default:
+    external:
+      name: shintech  
