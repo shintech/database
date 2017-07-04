@@ -1,8 +1,3 @@
-
-CREATE DATABASE api_production;
-
-\c api_production;
-
 CREATE TABLE models (
   ID SERIAL PRIMARY KEY,
   name VARCHAR,
